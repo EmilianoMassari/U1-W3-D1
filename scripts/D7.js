@@ -3,6 +3,16 @@
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
 
+// RISPOSTA 1
+
+const combineString = function (str1, str2) {
+  let result = str1.slice(0, 2) + str2.slice(-3)
+  result = result.toUpperCase()
+  console.log(result)
+}
+
+combineString("emiliano", "massari")
+
 /* ESERCIZIO 2 (for)
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
